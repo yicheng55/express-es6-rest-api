@@ -26,7 +26,7 @@ export const create = async function(req, res){
     res.status(400);
     res.json(msg);
     return ;
-  }
+  };
 
   try {
     const flds_user = new Flds_user({
@@ -72,9 +72,9 @@ export const create = async function(req, res){
     LogErr.info('user=%s, func=%s, msg=%s', global.userConfig.flds_user, logerfunc, logermsg);
     // LogErr.info('user=%s, func=%s, msg=%s', global.userConfig.flds_user, logerrfunc, logerrmsg);
 
-  }
+  };
 
-}
+};
 
 // 同步功能實現 async/await/Promise .
 // 此(函式表達式)完全可以被箭頭函式取代

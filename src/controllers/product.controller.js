@@ -1,6 +1,6 @@
 'use strict';
-import async from 'async';
-import fetch from 'node-fetch';
+// import async from 'async';
+// import fetch from 'node-fetch';
 import { isNullOrUndefined, log as utilLog } from 'util/util.js';
 import Product from '../models/product.model.js';
 import { Controllerlogger as Logger } from '../comm/logger.js';
